@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.ArrayList;
 
+//Data Structure to store data of students
 class Student
 {
   //private String m_id;
@@ -21,6 +22,8 @@ class Student
 class Main {
 
   private static int x= 0;
+  
+  //Creating the array to store students data
 
   private static ArrayList<Student> students = new ArrayList<Student>();
 
@@ -30,6 +33,7 @@ class Main {
   public static void main(String[] args) {
     int n = 0;
     Scanner scan = new Scanner(System.in);
+    // Prints the Menu for the management system
     System.out.println("Student Management System \n1.Add   2.Update   3.Delete   4.View   5.Save & Quit ");
     int m = scan.nextInt();
     System.out.println("User has entered "+m);
